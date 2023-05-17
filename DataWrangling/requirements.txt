@@ -1,0 +1,10 @@
+yelpapi
+pandas
+seaborn
+numpy
+nltk
+matplotlib
+jupyterlab
+tqdm
+googlemaps
+thefuzz

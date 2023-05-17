@@ -1,0 +1,149 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#map {
+  height: 100vh;
+}
+
+.nameContainer {
+  padding-bottom: 1em;
+}
+
+.popupImage {
+  max-height: 300px;
+  max-width: 550px;
+}
+
+.indicatorImage {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.leaflet-popup-tip {
+  background: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+
+/* For the Stars!*/
+.star-container {
+  display: inline-block;
+  font-size: 24px;
+  width: 1em;
+  text-align: center;
+  margin-right: -0.5em;
+  border: #000;
+}
+
+.star-rating {
+  display: inline-block;
+  text-align: left;
+  border: #000;
+}
+
+/* For the Rating*/
+
+.grade-color-bar-wrapper {
+  display: inline-block;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.grade-color-bar {
+  display: flex;
+  height: 20px;
+}
+
+.grade-section {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.indicator {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+.popup-field {
+  border-radius: 0.5em;
+}
+
+.yelp-rating {
+  margin-top:-30px;
+  margin-left:5px;
+  background:white;
+  margin-bottom: 2em;
+}
+
+.star {
+  font-size: x-large;
+  width: 50px;
+  display: inline-block;
+  color: lightgray;
+  margin-right: -1em;
+}
+.star:last-child {
+  margin-right: 0;
+}
+.star:before {
+  content:'\2605';
+}
+.star.on {
+  color: gold;
+}
+.star.half:after {
+  content:'\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -20px;
+  width: 10px;
+  overflow: hidden;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.entityName{
+  font-size: large;
+}
+
+.indicatorImage1{
+  max-height: 50px;
+  max-width: 50px;
+}
+.indicatorImage3{
+  max-height: 55px;
+  max-width: 55px;
+}
+
+.head1{
+  font-size: medium;
+}
+
+.text2{
+  font-size: small;
+}
